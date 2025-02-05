@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import com.todoapp.MyApp.entity.Task;
 import com.todoapp.MyApp.service.TaskService;
 
-@CrossOrigin(origins = "http://localhost:3000")
+// @CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/task")
 public class TaskController {
